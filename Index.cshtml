@@ -1,0 +1,18 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+    <div class="container-fluid">
+        <h1 class="text-capitalize text-center">@Model.PageTitle</h1>
+
+        <div class="jumbotron">
+            <h1 class="text-center"> @Model.randomPassword</h1>
+
+        </div>
+        <div class="btn-group">
+            <a class="btn btn-primary" asp-page="./Index">Generate new password</a>
+        </div>
+    </div>
+
