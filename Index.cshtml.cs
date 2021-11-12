@@ -43,9 +43,6 @@ namespace PasswordGenerator.Pages
             passwordGenerator(currentPasswordLength);
         }
 
-       
-
-
         public void OnGet()
         {
             PageTitle = _config["PasswordPageTitle"];
